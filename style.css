@@ -1,0 +1,156 @@
+/* ==================================================
+style.css
+================================================== */
+
+*{
+box-sizing: border-box;
+}
+
+body {
+margin: 0;
+font-family: Arial, sans-serif;
+line-height: 1.6;
+color: #3d3028;
+background-color: #f7f1e8;
+}
+
+/* ---------- En-tête ---------- */
+
+header {
+padding: 50px 20px;
+text-align: center;
+color: white;
+background-color: #6f4e37;
+}
+
+header h1 {
+margin: 0;
+font-size: 2.8rem;
+}
+
+header p {
+margin-top: 10px;
+font-size: 1.2rem;
+}
+
+/* ---------- Navigation ---------- */
+
+nav {
+padding: 15px;
+text-align: center;
+background-color: #3f2b1f;
+}
+
+nav a {
+margin: 0 15px;
+color: white;
+text-decoration: none;
+font-weight: bold;
+}
+
+nav a {
+color: #f0c987;
+}
+
+/* ---------- Contenu ---------- */
+
+main {
+width: 90%;
+max-width: 900px;
+margin: 30px auto;
+}
+
+section {
+margin-bottom: 25px;
+padding: 30px;
+background-color: white;
+border-radius: 10px;
+box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+section h2 {
+margin-top: 0;
+color: #6f4e37;
+}
+
+/* ---------- Accueil ---------- */
+
+.hero {
+text-align: center;
+}
+
+.button {
+display: inline-block;
+margin-top: 15px;
+padding: 10px 20px;
+color: white;
+background-color: #6f4e37;
+border-radius: 5px;
+text-decoration: none;
+}
+
+.button {
+background-color: #3f2b1f;
+}
+
+/* ---------- Menu ---------- */
+
+.menu-item {
+padding: 15px 0;
+border-bottom: 1px solid #ddd;
+}
+
+.menu-item {
+border-bottom: none;
+}
+
+.menu-item h3 {
+margin-bottom: 5px;
+color: #6f4e37;
+}
+
+.menu-item p {
+display: inline;
+}
+
+.menu-item strong {
+float: right;
+color: #6f4e37;
+}
+
+/* ---------- Pied de page ---------- */
+
+footer {
+margin-top: 50px;
+padding: 25px;
+text-align: center;
+color: white;
+background-color: #3f2b1f;
+}
+
+/* ---------- Mobile ---------- */
+
+@media (max-width: 600px) {
+
+header h1 {
+    font-size: 2rem;
+}
+
+nav a {
+    display: block;
+    margin: 8px;
+}
+
+main {
+    width: 95%;
+}
+
+.menu-item p {
+    display: block;
+}
+
+.menu-item strong {
+    float: none;
+}
+
+}
